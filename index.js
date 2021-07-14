@@ -26,7 +26,7 @@ client.on('message', async message => {
 	// Using the new `command` variable, this makes it easier to manage!
 	// You can switch your other commands to this format as well
 	if (command === 'ping') {
-		message.channel.send('Pong.');
+		message.channel.send(' Pingu, Creator of the light, Vanquisher of all unworthy, Bringer of life, Grand judge of all right & wrong, Also works with dnd bot.');
 	}
 	else if (command === 'args-info') {
 		if (!args.length) {
