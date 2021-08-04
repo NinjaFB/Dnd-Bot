@@ -16,7 +16,6 @@ client.on('message', async message => {
 	console.log(member.id);
 	console.log(message.member.user.username);
 	console.log(message.member.user.tag);
-	console.log(message.member.user.id);
 
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
